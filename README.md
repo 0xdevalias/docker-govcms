@@ -25,3 +25,7 @@ docker run -v /tmp/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.14 sh -c "find . 
 ## DockerHub
 
 * https://hub.docker.com/r/devalias/govcms/
+
+## File Listings
+
+* https://github.com/0xdevalias/wordlists/blob/master/web/govcms-7.x-2.14.txt
