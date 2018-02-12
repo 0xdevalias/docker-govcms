@@ -9,13 +9,13 @@ Not designed to be directly runnable. More for exploring file listings.
 For exploring:
 
 ```
-docker run -v /tmp/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.14 sh
+docker run -v $PWD/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.15 sh
 ```
 
 For generating file listings:
 
 ```
-docker run -v /tmp/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.14 sh -c "find . > /tmp/foo/govcms-7.x-2.14.txt"
+docker run -v $PWD/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.15 sh -c "find . > /tmp/foo/govcms-7.x-2.15.txt"
 ```
 
 ## GitHub
@@ -28,4 +28,5 @@ docker run -v /tmp/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.14 sh -c "find . 
 
 ## File Listings
 
+* https://github.com/0xdevalias/wordlists/blob/master/web/govcms-7.x-2.15.txt
 * https://github.com/0xdevalias/wordlists/blob/master/web/govcms-7.x-2.14.txt

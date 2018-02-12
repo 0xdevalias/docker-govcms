@@ -4,7 +4,7 @@ RUN apk update && apk add bzip2-dev && docker-php-ext-install bz2
 # RUN docker-php-ext-install pcntl
 RUN git clone https://github.com/govCMS/govCMS.git && \
     cd govCMS && \
-    git checkout 7.x-2.14
+    git checkout 7.x-2.15
 
 WORKDIR /app/govCMS
 RUN composer install --prefer-dist --working-dir=build
