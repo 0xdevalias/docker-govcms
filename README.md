@@ -18,6 +18,12 @@ For generating file listings:
 docker run -v $PWD/foo:/tmp/foo --rm -it devalias/govcms:7.x-2.15 sh -c "find . > /tmp/foo/govcms-7.x-2.15.txt"
 ```
 
+See also:
+
+- My pre-generated file GovCMS file listings at https://github.com/0xdevalias/wordlists/tree/master/web
+  - [govcms-7.x-2.14.txt](https://github.com/0xdevalias/wordlists/blob/master/web/govcms-7.x-2.14.txt)
+  - [govcms-7.x-2.15.txt](https://github.com/0xdevalias/wordlists/blob/master/web/govcms-7.x-2.15.txt)
+
 ## GitHub
 
 * https://github.com/0xdevalias/docker-govcms
